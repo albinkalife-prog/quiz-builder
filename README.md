@@ -19,7 +19,8 @@ cd backend
 npm install
 
 2.Run migrations and seed the database with sample data:
-
+npm install @prisma/client@5.22.0 
+npx prisma generate
 npx prisma migrate dev --name init
 npx prisma db seed 
 
